@@ -10,7 +10,7 @@ interface AgentCardProps {
     image: string;
     propertiesSold: number;
     experience: string;
-    rating: string;
+    rating: string | number;
   };
   index: number;
 }
